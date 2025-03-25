@@ -45,4 +45,13 @@ Chú ý:
 4. Kết quả AI phải phù hợp với yêu cầu, nếu quá sai lệch <=> sv ko đọc => Cấm thi
 5. Nên nhớ: cấm thi là ko có vùng cấm và thầy chưa bao giờ nói đùa về việc cấm thi.
 
+I. tạo bảng 
+tạo bảng cho BoMon
+![image](https://github.com/user-attachments/assets/85a1149a-551f-48e9-b4ae-b4032f2ea353)
+nhập thuộc tính của bảng
+![image](https://github.com/user-attachments/assets/fcb678de-6394-44e3-bd2d-1be6ec42f789)
+tạo khoá chính cho bảng 
+![image](https://github.com/user-attachments/assets/81515199-584d-40b1-9875-672213188d16)
+đặt tên cho bảng 
+![image](https://github.com/user-attachments/assets/17353438-e0d3-45a3-886e-63e36c3955ff)
 
