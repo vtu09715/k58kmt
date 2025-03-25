@@ -1,5 +1,5 @@
 # k58kmt
-Bài tập 02 của sv:k225480106068 - VŨ ĐỨC TÚ - Môn Hệ quản trị csdl
+Bài tập 02 của sv:k225480106068 - VŨ ĐỨC TÚ - Môn Hệ quản trị csdl 
 BÀI TẬP VỀ NHÀ 02 - MÔN HỆ QUẢN TRỊ CSDL:
 
 DEADLINE: 23H59 NGÀY 25/03/2025
