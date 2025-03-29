@@ -79,7 +79,8 @@ II. nhập thông tin cho sinh viên để truy vấn tính điểm
 
 ![image](https://github.com/user-attachments/assets/cffec933-7360-42b8-abf2-c22fbfbaf1f7)
 
-![image](https://github.com/user-attachments/assets/e505bf09-e9b2-4738-8eee-6a107574decc)
+![image](https://github.com/user-attachments/assets/465ea681-7142-43ca-83de-3e1a71efac8a)
+
 
 ![image](https://github.com/user-attachments/assets/e1654d1a-d500-4c8a-8415-eee8f75fe9d9)
 
