@@ -88,6 +88,7 @@ II. nhập thông tin cho sinh viên để truy vấn tính điểm
 ![image](https://github.com/user-attachments/assets/437d6930-d841-45fe-b297-c2a0791aef1f)
 
 LỆNH TRUY VẤN TÍNH ĐIỂM THÀNH PHẦN CỦA MỘT SINH VIÊN TẠI MỘT LỚP HỌC 
+![image](https://github.com/user-attachments/assets/26158f73-22d1-46e9-8fca-4a2bade1615a)
 
 kết quả tính điểm thành phần của 1 sinh viên
 ![image](https://github.com/user-attachments/assets/ae9103f4-a40f-4fa6-8d04-44e40d0091f9)___
