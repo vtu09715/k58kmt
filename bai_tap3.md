@@ -76,40 +76,26 @@ dặt điều kiện cho trường điểm
 
 II. nhập thông tin cho sinh viên để truy vấn tính điểm 
 ![image](https://github.com/user-attachments/assets/f651e441-c3c2-4b39-bc87-1f2badff3548)
+
 ![image](https://github.com/user-attachments/assets/cffec933-7360-42b8-abf2-c22fbfbaf1f7)
+
 ![image](https://github.com/user-attachments/assets/e505bf09-e9b2-4738-8eee-6a107574decc)
+
 ![image](https://github.com/user-attachments/assets/e1654d1a-d500-4c8a-8415-eee8f75fe9d9)
+
 ![image](https://github.com/user-attachments/assets/a96f5f13-3b79-4c7e-be98-7e283fc63e6f)
+
 ![image](https://github.com/user-attachments/assets/437d6930-d841-45fe-b297-c2a0791aef1f)
+
+LỆNH TRUY VẤN TÍNH ĐIỂM THÀNH PHẦN CỦA MỘT SINH VIÊN TẠI MỘT LỚP HỌC 
+
 kết quả tính điểm thành phần của 1 sinh viên
 ![image](https://github.com/user-attachments/assets/ae9103f4-a40f-4fa6-8d04-44e40d0091f9)___
 II. tạo các bảng liên kết khoá ngoại và khoá chính 
 ![image](https://github.com/user-attachments/assets/e42d78a9-e9ef-435e-b642-87b4706a195c)
+
 ![image](https://github.com/user-attachments/assets/5177c967-d6a5-4b77-bc22-9cd4887e1b21)
 kết quả
 ![image](https://github.com/user-attachments/assets/5eac931b-ae57-4537-9907-acf5fc3cdd2e)
-LỆNH TRUY VẤN TÍNH ĐIỂM THÀNH PHẦN CỦA 1 SINH VIÊN TẠI 1 LỚP HỌC 
-USE QUANLYSV;
 
-SELECT 
-    SV.Masv, 
-    SV.HoTen, 
-    LHP.MaLopHP, 
-    LHP.TenLopHP, 
-    MH.Tenmon, 
-	SUM(CAST(D.diem AS FLOAT)) * (1 - CAST(DKMH.PhanTramThi AS FLOAT) / 100) AS DiemThanhPhan
-FROM 
-    SinhVien SV
-JOIN 
-    DKMH ON SV.Masv = DKMH.Masv
-JOIN 
-    LopHP LHP ON DKMH.MaLopHP = LHP.MaLopHP
-JOIN 
-    MonHoc MH ON LHP.MaMon = MH.MaMon
-JOIN 
-    Diem D ON DKMH.id_dk = D.id_dk
-WHERE 
-    SV.Masv = 'k123' -- Thay MASV123 bằng mã sinh viên cần tìm
-GROUP BY 
-    SV.Masv, SV.HoTen, LHP.MaLopHP, LHP.TenLopHP, MH.Tenmon, DKMH.PhanTramThi;
     
