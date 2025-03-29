@@ -88,5 +88,28 @@ II. tạo các bảng liên kết khoá ngoại và khoá chính
 ![image](https://github.com/user-attachments/assets/5177c967-d6a5-4b77-bc22-9cd4887e1b21)
 kết quả
 ![image](https://github.com/user-attachments/assets/5eac931b-ae57-4537-9907-acf5fc3cdd2e)
+LỆNH TRUY VẤN TÍNH ĐIỂM THÀNH PHẦN CỦA 1 SINH VIÊN TẠI 1 LỚP HỌC 
+USE QUANLYSV;
 
-
+SELECT 
+    SV.Masv, 
+    SV.HoTen, 
+    LHP.MaLopHP, 
+    LHP.TenLopHP, 
+    MH.Tenmon, 
+	SUM(CAST(D.diem AS FLOAT)) * (1 - CAST(DKMH.PhanTramThi AS FLOAT) / 100) AS DiemThanhPhan
+FROM 
+    SinhVien SV
+JOIN 
+    DKMH ON SV.Masv = DKMH.Masv
+JOIN 
+    LopHP LHP ON DKMH.MaLopHP = LHP.MaLopHP
+JOIN 
+    MonHoc MH ON LHP.MaMon = MH.MaMon
+JOIN 
+    Diem D ON DKMH.id_dk = D.id_dk
+WHERE 
+    SV.Masv = 'k123' -- Thay MASV123 bằng mã sinh viên cần tìm
+GROUP BY 
+    SV.Masv, SV.HoTen, LHP.MaLopHP, LHP.TenLopHP, MH.Tenmon, DKMH.PhanTramThi;
+    
