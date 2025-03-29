@@ -90,10 +90,12 @@ II. nhập thông tin cho sinh viên để truy vấn tính điểm
 ![image](https://github.com/user-attachments/assets/437d6930-d841-45fe-b297-c2a0791aef1f)
 
 LỆNH TRUY VẤN TÍNH ĐIỂM THÀNH PHẦN CỦA MỘT SINH VIÊN TẠI MỘT LỚP HỌC 
-![image](https://github.com/user-attachments/assets/26158f73-22d1-46e9-8fca-4a2bade1615a)
+![image](https://github.com/user-attachments/assets/2be8dedd-dd6b-49b3-8afc-7b104b68a454)
+
 
 kết quả tính điểm thành phần của 1 sinh viên
-![image](https://github.com/user-attachments/assets/13cd4d1a-eca5-4ade-8ee6-1253b7299716)
+![image](https://github.com/user-attachments/assets/2c4d272c-8f6c-4208-9b72-3ec375fefa19)
+
 
 II. tạo các bảng liên kết khoá ngoại và khoá chính 
 ![image](https://github.com/user-attachments/assets/e42d78a9-e9ef-435e-b642-87b4706a195c)
