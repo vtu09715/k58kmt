@@ -77,7 +77,8 @@ dặt điều kiện cho trường điểm
 II. nhập thông tin cho sinh viên để truy vấn tính điểm 
 ![image](https://github.com/user-attachments/assets/f651e441-c3c2-4b39-bc87-1f2badff3548)
 
-![image](https://github.com/user-attachments/assets/cffec933-7360-42b8-abf2-c22fbfbaf1f7)
+![image](https://github.com/user-attachments/assets/7434e397-0de9-45b3-973b-e0252ce3000b)
+
 
 ![image](https://github.com/user-attachments/assets/465ea681-7142-43ca-83de-3e1a71efac8a)
 
