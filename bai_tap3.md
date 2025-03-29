@@ -91,7 +91,8 @@ LỆNH TRUY VẤN TÍNH ĐIỂM THÀNH PHẦN CỦA MỘT SINH VIÊN TẠI MỘT
 ![image](https://github.com/user-attachments/assets/26158f73-22d1-46e9-8fca-4a2bade1615a)
 
 kết quả tính điểm thành phần của 1 sinh viên
-![image](https://github.com/user-attachments/assets/ae9103f4-a40f-4fa6-8d04-44e40d0091f9)___
+![image](https://github.com/user-attachments/assets/13cd4d1a-eca5-4ade-8ee6-1253b7299716)
+
 II. tạo các bảng liên kết khoá ngoại và khoá chính 
 ![image](https://github.com/user-attachments/assets/e42d78a9-e9ef-435e-b642-87b4706a195c)
 
